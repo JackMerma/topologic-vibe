@@ -1,0 +1,15 @@
+scikit-learn
+
+# AI
+langchain
+langchain-google-genai
+streamlit
+
+# Topologic
+#topologic
+topologicpy
+
+# Viewers
+plotly
+pandas
+streamlit

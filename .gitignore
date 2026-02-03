@@ -1,0 +1,63 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Entornos Virtuales ---
+# Es vital no subir la carpeta del entorno (pesa mucho y es local)
+.venv/
+venv/
+ENV/
+env/
+bin/
+include/
+lib/
+share/
+
+# --- Jupyter Notebooks ---
+# Ignoramos los checkpoints y el autoguardado, pero NO los archivos .ipynb
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.nbsphinx
+nteract.json
+
+# --- Streamlit ---
+# Ignoramos la configuración local y las credenciales si las tienes
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# --- Variables de Entorno / Secretos ---
+# ¡NUNCA subas tus llaves de API o contraseñas!
+.env
+.flaskenv
+secrets.toml
+
+# --- IDEs (VS Code, PyCharm) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Archivos del Sistema ---
+.DS_Store
+Thumbs.db
+.jupyter/
